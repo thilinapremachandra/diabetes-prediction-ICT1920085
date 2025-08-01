@@ -31,16 +31,16 @@ pip install -r requirements.txt
 ## How to Run the Model
 
 1. **Run the notebook:**
-   - Open `diabetes_prediction` or `final_model.ipynb` in Jupyter Notebook or VS Code and run all cells step by step.
+   - Open `diabetes_prediction` or `final_model_2.ipynb` in Jupyter Notebook or VS Code and run all cells step by step.
 
 2. **Evaluate on test set:**
    - At the end of the notebook, the model will be evaluated using accuracy, confusion matrix, and ROC curve.
 
 3. **Saved files:**
-   - `finalmodel.h5`: the trained Keras model
-   - `scaler.pkl`: the fitted StandardScaler for preprocessing
+   - `finalmodel_2.h5`: the trained Keras model
+   - `scaler_2.pkl`: the fitted StandardScaler for preprocessing
 
-To use the model in production, simply load both the `.h5` model and `scaler.pkl` file and feed new data.
+To use the model in production, simply load both the `.h5` model and `scaler_2.pkl` file and feed new data.
 
 ## Files in This Repo
 
