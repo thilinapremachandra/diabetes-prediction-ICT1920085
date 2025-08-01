@@ -17,40 +17,41 @@ This project builds a neural network model to predict whether a patient is diabe
 
 ## Setup Instructions
 
-1. Clone this repository:
-
+1. **Clone this repository:**
 ```bash
 git clone https://github.com/yourusername/diabetes-prediction-nn.git
 cd diabetes-prediction-nn
+```
 
-Install the required Python libraries:
-
-bash
+2. **Install the required Python libraries:**
+```bash
 pip install -r requirements.txt
+```
 
 ## How to Run the Model
 
-Run the notebook:
-Open diabetes_prediction or final_model.ipynb in Jupyter Notebook or VS Code and run all cells step by step.
+1. **Run the notebook:**
+   - Open `diabetes_prediction` or `final_model.ipynb` in Jupyter Notebook or VS Code and run all cells step by step.
 
-Evaluate on test set:
-At the end of the notebook, the model will be evaluated using accuracy, confusion matrix, and ROC curve.
+2. **Evaluate on test set:**
+   - At the end of the notebook, the model will be evaluated using accuracy, confusion matrix, and ROC curve.
 
-Saved files:
+3. **Saved files:**
+   - `finalmodel.h5`: the trained Keras model
+   - `scaler.pkl`: the fitted StandardScaler for preprocessing
 
-finalmodel.h5: the trained Keras model
-
-scaler.pkl: the fitted StandardScaler for preprocessing
-
-To use the model in production, simply load both the .h5 model and scaler.pkl file and feed new data.
+To use the model in production, simply load both the `.h5` model and `scaler.pkl` file and feed new data.
 
 ## Files in This Repo
-File	Description
-diabetes_prediction	Final notebook with complete pipeline
-finalmodel_2.h5	Trained neural network model
-scaler_2.pkl	Saved StandardScaler for input preprocessing
-requirements.txt	List of required Python libraries
-README.md	This readme file
+
+| File | Description |
+|------|-------------|
+| `diabetes_prediction` | Final notebook with complete pipeline |
+| `finalmodel_2.h5` | Trained neural network model |
+| `scaler_2.pkl` | Saved StandardScaler for input preprocessing |
+| `requirements.txt` | List of required Python libraries |
+| `README.md` | This readme file |
 
 ## License
+
 This project is open-source and available under the MIT License.
